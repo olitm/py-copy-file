@@ -1,7 +1,3 @@
-class FileNotFound():
-    """If file not found return"""
-
-
 def copy_file(command: str) -> None:
     parts = command.strip().split()
     if len(parts) != 3:
